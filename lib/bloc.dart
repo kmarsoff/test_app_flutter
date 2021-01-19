@@ -6,11 +6,7 @@ import 'repository.dart';
 class CatBloc extends Bloc<Event, CatsState>{
 
   final Repository repository;
-  CatBloc({this.repository});
-
-  @override
-
-  CatsState get initialState => EmptyState();
+  CatBloc({this.repository}) : super(EmptyState());
 
   @override
   Stream<CatsState> mapEventToState(Event event) async*{
