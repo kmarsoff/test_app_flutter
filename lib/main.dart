@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_app_flutter/repository.dart';
 import 'bloc.dart';
 import 'cat_widget.dart';
-import 'events.dart';
 
 void main() {
   runApp(MyApp());
